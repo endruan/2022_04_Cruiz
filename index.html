@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
 
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
   <title>Морские прогулки</title>
 </head>
 <body>
@@ -23,21 +24,32 @@
           <ul class="header__nav-list">
             <li class="header__nav-item">
               <a href="#">
-                <svg  width="10px" height="12px">
+                <svg  class="header__nav-icon">
                   <path d="M8.999,11.999 L0.999,11.999 L0.0,11.0 L0.0,8.999 C0.0,8.999 0.143,7.21 3.0,7.0 C3.0,7.0 4.687,9.312 7.0,7.0 C7.0,7.0 9.999,7.95 9.999,8.999 C9.999,10.904 9.999,11.0 9.999,11.0 L8.999,11.999 ZM4.999,5.999 C3.343,5.999 1.999,4.656 1.999,2.999 C1.999,1.343 3.343,0.0 4.999,0.0 C6.656,0.0 8.0,1.343 8.0,2.999 C8.0,4.656 6.656,5.999 4.999,5.999 Z"/>
                 </svg>
                 Личный кабинет
+                <svg class="header__nav-arrow arrow">
+                  <path d="M3.998,4.997 L-0.005,0.002 L8.001,0.002 L3.998,4.997 Z"/>
+                </svg>
               </a>
             </li>
             <li class="header__nav-item">
               <a href="#">
-                <svg  width="10px" height="12px">
+                <svg  class="header__nav-icon">
                   <path d="M9.746,4.469 C9.584,4.946 9.357,5.370 9.63,5.741 C8.769,6.112 8.415,6.410 8.0,6.634 C7.585,6.859 7.129,6.971 6.633,6.971 L4.82,6.971 L4.82,7.999 L8.0,7.999 L8.0,10.0 L4.82,10.0 L4.82,11.982 L1.986,11.982 L1.986,10.0 L0.0,10.0 L0.0,7.999 L1.986,7.999 L1.986,7.0 L0.0,7.0 L0.0,4.999 L1.986,4.999 L1.986,0.17 L6.557,0.17 C7.53,0.17 7.511,0.132 7.932,0.362 C8.352,0.593 8.714,0.896 9.17,1.272 C9.321,1.649 9.559,2.76 9.731,2.553 C9.903,3.31 9.989,2.511 9.989,2.994 C9.989,3.500 9.908,3.991 9.746,4.469 ZM7.742,2.177 C7.661,1.935 7.554,2.730 7.423,2.562 C7.291,2.393 7.137,2.267 6.960,2.182 C6.782,2.98 6.603,2.56 6.421,2.56 L4.82,2.56 L4.82,4.932 L6.512,4.932 C6.896,4.932 7.218,4.758 7.476,4.410 C7.734,4.62 7.863,3.590 7.863,2.994 C7.863,2.691 7.823,2.418 7.742,2.177 Z"/>
                 </svg>
                 Рубль
+                <svg class="header__nav-arrow arrow">
+                  <path d="M3.998,4.997 L-0.005,0.002 L8.001,0.002 L3.998,4.997 Z"/>
+                </svg>
               </a>
             </li>
-            <li class="header__nav-item"><a href="#">Ru</a></li>
+            <li class="header__nav-item"><a href="#">
+              Ru
+              <svg class="header__nav-arrow arrow">
+                  <path d="M3.998,4.997 L-0.005,0.002 L8.001,0.002 L3.998,4.997 Z"/>
+              </svg>
+            </a></li>
           </ul>
           <div class="header__nav-phone">
             <div class="header__nav-phone-tel">8 800 500-61-05</div>
@@ -60,6 +72,144 @@
       </div>
     </section>
   </div>
-  <!-- <script src="js/scripts.min.js"></script> -->
+  <section class="content">
+    <div class="container">
+      <h2 class="content__title">Каталог круизов</h2>
+      <div class="content__sort">Сортировать круизы по цене 
+        <svg class="header__nav-arrow arrow">
+          <path d="M3.998,4.997 L-0.005,0.002 L8.001,0.002 L3.998,4.997 Z"/>
+        </svg>
+      </div>
+
+      <div class="content__tur">
+        <div class="cart-tur cart-tur--big">
+
+          <div class="tag--big tag">
+            <div class="tag__text">Хит</div>
+            <div class="tag__text">продаж</div>
+          </div>
+
+          <img src="img/cruiz_01.jpg" alt="" class="cart-tur__img">
+          <div class="cart-tur__content">
+            <div class="cart-tur__tittle">Морской круиз в Анапу</div>
+            <div class="cart-tur__desc">
+              <strong>Маршрут: </strong> Сочи-Лазаревское-Геленджик-Анапа
+              <br>
+              <strong>Продолжительность: </strong> 10 ч. 0 мин.
+            </div>
+              <div class="cart-tur__price">
+                <div class="cart-tur__price__actual">49 000 руб.</div>
+              </div>
+          </div>
+        </div>
+
+        <div class="content__tur-group">
+          <div class="cart-tur cart-tur--little">
+
+          <div class="tag--little tag">
+            <div class="tag__text">Акция</div>
+          </div>
+
+            <img src="img/cruiz_02.jpg" alt="" class="cart-tur__img">
+            <div class="cart-tur__content">
+              <div class="cart-tur__tittle">Обзорная морская прогулка с экскурсией</div>
+              <div class="cart-tur__desc">
+                <strong>Маршрут: </strong> Сочи-Адлер-Сочи (без высадки)
+                <br>
+                <strong>Продолжительность: </strong> 1 ч. 0 мин.
+              </div>
+              <div class="cart-tur__price">
+                <div class="cart-tur__price__actual">5 000 руб.</div>
+                <div class="cart-tur__price__old">15 000 руб.</div>
+              </div>
+            </div>
+          </div>
+          <div class="cart-tur cart-tur--little">
+          <div class="tag--little tag">
+            <div class="tag__text">Скидка</div>
+            <div class="tag__text">10%</div>
+          </div>
+
+            <img src="img/cruiz_03.jpg" alt="" class="cart-tur__img">
+            <div class="cart-tur__content">
+              <div class="cart-tur__tittle">Морская прогулка в Геленджик</div>
+              <div class="cart-tur__desc">
+                <strong>Маршрут: </strong> Сочи-Туапсе-Геленджик
+                <br>
+                <strong>Продолжительность: </strong> 12 ч. 30 мин.
+              </div>
+              <div class="cart-tur__price">
+                <div class="cart-tur__price__actual">7 000 руб.</div>
+                <div class="cart-tur__price__old">10 000 руб.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart-tur cart-tur--medium">
+          <img src="img/cruiz_04.jpg" alt="" class="cart-tur__img">
+          <div class="cart-tur__content">
+            <div class="cart-tur__tittle">Морской круиз в Новороссийск</div>
+            <div class="cart-tur__desc">
+              <strong>Маршрут: </strong> Сочи-Геленджик-Новороссйиск-Геленджик-Сочи
+              <br>
+              <strong>Продолжительность: </strong> 13 ч. 0 мин.
+            </div>
+            <div class="cart-tur__price">
+              <div class="cart-tur__price__actual">14 800 руб.</div>
+            </div>
+          </div>
+        </div>
+        <div class="cart-tur cart-tur--medium">
+          <img src="img/cruiz_05.jpg" alt="" class="cart-tur__img">
+          <div class="cart-tur__content">
+            <div class="cart-tur__tittle">Морская прогулка в Абрау-Дюрсо</div>
+            <div class="cart-tur__desc">
+              <strong>Маршрут: </strong> Сочи-Абрау-Дюрсо
+              <br>
+              <strong>Продолжительность: </strong> 11 ч. 0 мин.
+            </div>
+            <div class="cart-tur__price">
+              <div class="cart-tur__price__actual">14 800 руб.</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <button class="btn btn--content">
+        Больше круизов
+        <svg class="btn--arrow arrow">
+          <path d="M3.998,4.997 L-0.005,0.002 L8.001,0.002 L3.998,4.997 Z"/>
+        </svg>
+      </button>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__left">
+        <nav class="footer__nav">
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#">Вход для партнеров</a></li>
+            <li class="footer__item"><a href="#">О компании</a></li>
+            <li class="footer__item"><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="footer__social">
+          <span class="footer__social-title">Будь на связи</span>
+          <div class="footer__social-group">
+            <img class="footer__social-img" src="img/vk.png" alt="vk">
+            <img class="footer__social-img" src="img/ok.png" alt="ok">
+            <img class="footer__social-img" src="img/yt.png" alt="youtube">
+            <img class="footer__social-img" src="img/insta.png" alt="instagram">
+          </div>
+        </div>
+      </div>
+      <div class="footer__right">
+        <a href="tel:+78005006105" class="footer__right-phone">8 800 500-61-05</a>
+        <div class="footer__right-desc">Круглосуточная поддержка</div>
+        <div class="footer__right-text">© 2016 ООО "Городские Круизы"</div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
